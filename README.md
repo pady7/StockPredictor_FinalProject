@@ -13,6 +13,7 @@ The core idea of the project is to develop a model for a green energy stock.
 * Sam K Yang
 * Ruimin Ma
 * Padmanaban
+* Gianne Carranza
 
 ## Project Ideas
 
