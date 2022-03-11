@@ -21,4 +21,4 @@ As a team we have brainstormed quite a few topics such as collecting the data fo
 
 ## Project Overview
 ---
-As the need for green/renewable/solar energy is on the historical peak because of ever surging oil and gas prices in the recent past, we've decided to work on a company that has ample opportunities to spike in the coming years. 
+As the need for green/renewable/solar energy is on the historical peak because of ever surging oil and gas prices in the recent past, we've decided to work on a company that has ample opportunities to spike in the coming years. Our goal for this project is to see if we can predict future prices of the ENPH stock using machine learning.
