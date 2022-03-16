@@ -26,4 +26,15 @@ As the need for green/renewable/solar energy is on the historical peak because o
 ## Technology and Systems Used
 ---
 PG Admin
+
 ![Screen Shot 2022-03-10 at 8 39 47 PM](https://user-images.githubusercontent.com/92561003/157803342-4166d300-ccae-40fd-8035-231ef251fed5.png)
+
+
+
+## Locations of Project Deliverables:
+
+| Objective | Location |
+|-----------|-----------|
+|Presentation| [Google Slides]|
+|Exploratory Analysis code | GitHub Master Branch -  |
+|Machine Learning code and output | GitHub Master Branch - Resources folder |
