@@ -38,3 +38,7 @@ PG Admin
 |Presentation| [Google Slides]|
 |Exploratory Analysis code | GitHub Master Branch -  |
 |Machine Learning code and output | GitHub Master Branch - Resources folder |
+
+
+## Presentation
+The link to the presentation on Google Slides can be found [here](https://docs.google.com/presentation/d/1XhQtjzv3wb1SMS_tV3CjvyUT2Ljn8YZGU-FbSucNq-0/edit?usp=sharing)
