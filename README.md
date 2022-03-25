@@ -10,7 +10,7 @@ The core idea of the project is to develop a model for a green energy stock.
 
 ## Team Members
 ---
-* Sam K Yang
+* Sam Yang
 * Ruimin Ma
 * Padmanaban
 * Gianne Carranza
