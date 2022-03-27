@@ -30,6 +30,7 @@ PG Admin
 ![Screen Shot 2022-03-10 at 8 39 47 PM](https://user-images.githubusercontent.com/92561003/157803342-4166d300-ccae-40fd-8035-231ef251fed5.png)
 
 Google Slide
+Jupyter Notebook
 
 
 ## Locations of Project Deliverables:
