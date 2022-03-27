@@ -10,7 +10,7 @@ The core idea of the project is to develop a model for a green energy stock.
 
 ## Team Members
 ---
-* Sam K Yang
+* Sam Yang
 * Ruimin Ma
 * Padmanaban
 * Gianne Carranza
@@ -26,4 +26,20 @@ As the need for green/renewable/solar energy is on the historical peak because o
 ## Technology and Systems Used
 ---
 PG Admin
+
 ![Screen Shot 2022-03-10 at 8 39 47 PM](https://user-images.githubusercontent.com/92561003/157803342-4166d300-ccae-40fd-8035-231ef251fed5.png)
+
+Google Slide
+
+
+## Locations of Project Deliverables:
+
+| Objective | Location |
+|-----------|-----------|
+|Presentation| [Google Slides]|
+|Exploratory Analysis code | GitHub Master Branch -  |
+|Machine Learning code and output | GitHub Master Branch - Resources folder |
+
+
+## Presentation
+The link to the presentation on Google Slides can be found [here](https://docs.google.com/presentation/d/1XhQtjzv3wb1SMS_tV3CjvyUT2Ljn8YZGU-FbSucNq-0/edit?usp=sharing)
