@@ -43,4 +43,4 @@ Jupyter Notebook
 
 
 ## Presentation
-The link to the presentation on Google Slides can be found [here](https://docs.google.com/presentation/d/1XhQtjzv3wb1SMS_tV3CjvyUT2Ljn8YZGU-FbSucNq-0/edit?usp=sharing)
+The link to the presentation on Google Slides can be found [here](https://docs.google.com/presentation/d/1p80bp2mV4zhRoJfl8g2sdp7gDon-e-Cy/edit?usp=sharing&ouid=106759923296677285620&rtpof=true&sd=true)
