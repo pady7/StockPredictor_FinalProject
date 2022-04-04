@@ -26,7 +26,7 @@ As the need for green/renewable/solar energy is on the historical peak because o
 Machine Learning model been tested and ran thru successfully. 
 Ran a different model to ensure the outcome.
 Found the observations did not deviate much.
-
+All 3 models worked the way we expected it to be.
 
 ## Technology and Systems Used
 ---
