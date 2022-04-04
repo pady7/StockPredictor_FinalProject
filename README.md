@@ -23,6 +23,11 @@ As a team we have brainstormed quite a few topics such as collecting the data fo
 ---
 As the need for green/renewable/solar energy is on the historical peak because of ever surging oil and gas prices in the recent past, we've decided to work on a company that has ample opportunities to spike in the coming years. Our goal for this project is to see if we can predict future prices of the ENPH stock using machine learning. We tried modelling and testing with Linear Regression and LSTM to determine the outcome.
 
+Machine Learning model been tested and ran thru successfully. 
+Ran a different model to ensure the outcome.
+Found the observations did not deviate much.
+All 3 models worked the way we expected it to be.
+
 ## Technology and Systems Used
 ---
 PG Admin
