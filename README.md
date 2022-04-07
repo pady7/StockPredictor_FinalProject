@@ -77,11 +77,16 @@ The model with the best result (magnitude of errors, accuracy) will be selected 
 
 # Linear Regression Model
 
+![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/LSTM.png)
 
-Machine Learning model been tested and ran thru successfully. 
-Ran a different model to ensure the outcome.
-Found the observations did not deviate much.
-All 3 models worked the way we expected it to be.
+![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/linear_regression.png)
+
+![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/linear_regression2.png)
+
+# Facebook Prophet Model
+
+![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/facebook_prophet.png)
+
 
 ## Technology and Systems Used
 ---
