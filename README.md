@@ -42,18 +42,18 @@ There are multiple variables in the dataset – date, Opening price, Highest pri
 
 # Technology and Algorithm Implementation
 
-PG Admin
-Python
-PostgreSQL
-PGadmin
-Plotly
-AWS
-Jupyter Notebook
-Google Colab
-Machine learning
-Microsoft Excel
-Anaconda
-Pandas
+-PG Admin
+-Python
+-PostgreSQL
+-PGadmin
+-Plotly
+-AWS
+-Jupyter Notebook
+-Google Colab
+-Machine learning
+-Microsoft Excel
+-Anaconda
+-Pandas
 
 # Machine Learning Model
 
