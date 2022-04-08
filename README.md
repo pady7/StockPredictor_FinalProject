@@ -55,25 +55,21 @@ High, Low and Last represent the maximum, minimum, and last price of the share f
 
 Trading volume is the number of shares bought or sold in the day.
 
+## Technology and Systems Used
+---
+PG Admin
+
+![Screen Shot 2022-03-10 at 8 39 47 PM](https://user-images.githubusercontent.com/92561003/157803342-4166d300-ccae-40fd-8035-231ef251fed5.png)
+
+Google Slide <br/>
+Jupyter Notebook
+
 # Machine Learning Model
 
-The first review of the data was done using excel to access the data characteristics.
+There are four models we trained to make predictions on future stock prices. A simple linear regression model. Linear regression model with technical indicator EMA, Long Short Term Memory Network(LSTM), and Facebook Prophet model.
 
-We will load historic pricing data into a Pandas’ DataFrame for the Linear Regression model.
+First module is the linear regression module, which is quite popular for stock market prediction. Linear regression module is defined by using a feature to predict an outcome, and it helps to identify the relationships between a dependent variable and one or more independent variables.
 
-We will train a simple linear regression model using moving average as a predictor for the closing price.
-
-We will analyze the accuracy of our model, plot the results, and consider the magnitude of our errors.
-
-We will be using python and scikit-learn to present a provisional machine learning model that stands in for the final machine learning model.
-
-This model will take data from the provisional database and output labels for input data.
-
-The target is closing stock price, the data split into training and test set (80, 20).
-
-Four models Autoregressive Integrated Moving Average (ARIMA), Facebook Prophet, Long short-term memory (LSTM) and Linear Regression will be used for the machine learning.
-
-The model with the best result (magnitude of errors, accuracy) will be selected for final deployment.
 
 # Linear Regression Model
 
@@ -88,14 +84,7 @@ The model with the best result (magnitude of errors, accuracy) will be selected 
 ![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/facebook_prophet.png)
 
 
-## Technology and Systems Used
----
-PG Admin
 
-![Screen Shot 2022-03-10 at 8 39 47 PM](https://user-images.githubusercontent.com/92561003/157803342-4166d300-ccae-40fd-8035-231ef251fed5.png)
-
-Google Slide <br/>
-Jupyter Notebook
 
 
 ## Locations of Project Deliverables:
