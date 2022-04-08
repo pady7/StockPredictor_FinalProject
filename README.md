@@ -40,6 +40,7 @@ The source of data is obtained from yahoo finance. This data consists of 1536 ro
 
 There are multiple variables in the dataset – date, Opening price, Highest price that day, Lowest price that day, Adjusted closing price and Trading volume. The columns Open and Close represent the starting and final price at which the stock is traded on a particular day. High, Low and Last represent the maximum, minimum, and last price of the share for the day. Trading volume is the number of shares bought or sold in the day.
 
+# Technology and Algorithm Implementation
 
 | Technology and Algorithm Implementation|
 |-----------|-----------|
