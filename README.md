@@ -43,7 +43,7 @@ There are multiple variables in the dataset – date, Opening price, Highest pri
 # Technology and Algorithm Implementation
 
 | Technology and Algorithm Implementation|
-|-----------|-----------|
+|-----------|
 |PG Admin| 
 |Python| 
 |Pandas|
