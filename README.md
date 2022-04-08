@@ -59,16 +59,34 @@ Trading volume is the number of shares bought or sold in the day.
 ---
 PG Admin
 
-![Screen Shot 2022-03-10 at 8 39 47 PM](https://user-images.githubusercontent.com/92561003/157803342-4166d300-ccae-40fd-8035-231ef251fed5.png)
-
-Google Slide <br/>
+Visual Code Studio
+Python
+PostgreSQL
+PGadmin
+Plotly
+AWS
 Jupyter Notebook
+Google Colab
+Machine learning
+Microsoft Excel
+Anaconda
+Pandas
 
 # Machine Learning Model
 
 There are four models we trained to make predictions on future stock prices. A simple linear regression model. Linear regression model with technical indicator EMA, Long Short Term Memory Network(LSTM), and Facebook Prophet model.
 
 First module is the linear regression module, which is quite popular for stock market prediction. Linear regression module is defined by using a feature to predict an outcome, and it helps to identify the relationships between a dependent variable and one or more independent variables.
+
+We got historic pricing data for Enphase Energy Inc, from Jan 2017 to March 2022. There are seven columns, most of them easy to understand except for the “Adj Close”. What is Adj Close? It’s actually similar to close values, but the difference is that it considers the factors of dividends, stock splits, and new stock offerings, it is more accurate than the close value considering price prediction.
+
+# Linear Regression Model
+
+First, we converted the “Date” column to a DatetimeIndex. Second, we set Adj Close as our target, and other columns are features. Before we train the module, we plot our data to get a visual picture. It reflects a 5-year price increase, with a relative increase of 250%, and a high volume of shared trade between 2020 and 2021. And then we split the data into features and target, train the module, and get the score of accuracy and mean squared error : the average squared difference between the estimated values and the actual value, for MSE value, the lower the value the better.
+
+![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/LSTM.png)
+
+When we evaluated the model result,  we realized that it’s not appropriate to use a simple linear regression module to predict stock price like this. Because the linear regression module is effective for time series data, such as identifying trends like seasonality or weather prediction, somehow the variable needs to be related to itself. But when we look at the variables in the stock dataframe, each variable is not that much related, even though it looks like a time series data. The “date” value is not suitable for our independent variable. Because there are many factors that influence the stock price, such as public policy, news, international affairs, etc.,. 
 
 
 # Linear Regression Model
@@ -84,7 +102,12 @@ First module is the linear regression module, which is quite popular for stock m
 ![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/facebook_prophet.png)
 
 
+# Summary
 
+
+Predicting how the stock market will perform is an enigmatic task to do. There are many factors involved in the prediction, such as supply and demand, market indicators, government fiscal and monetary policy, natural disasters or wars, etc., (Some of them are rational and some of them are irrational behavior, which is hard to forecast.) However, the machine learning models and their strong algorithms still allow us to learn and analyze the pattern and behavior of the stock prices. We resonated with this idea through practicing the linear regression model with EMA indicators and the LSTM model during our project. 
+
+The models we trained are not that perfect, for example, we should have built more convincing relationships between independent and dependent variables, make comparisons among each model we trained, and imported multiple stocks datasets from other green energy companies to validate our models.,. However, the models we’ve trained so far still provided an effective way and rich resources to help us understand the trends of the stock price as well as promote us to further explore the factors that will influence the stock market.
 
 
 ## Locations of Project Deliverables:
