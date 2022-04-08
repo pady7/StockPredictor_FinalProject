@@ -70,7 +70,11 @@ We got historic pricing data for Enphase Energy Inc, from Jan 2017 to March 2022
 
 First, we converted the “Date” column to a DatetimeIndex. Second, we set Adj Close as our target, and other columns are features. Before we train the module, we plot our data to get a visual picture. It reflects a 5-year price increase, with a relative increase of 250%, and a high volume of shared trade between 2020 and 2021. And then we split the data into features and target, train the module, and get the score of accuracy and mean squared error : the average squared difference between the estimated values and the actual value, for MSE value, the lower the value the better.
 
-![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/LSTM.png)
+![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/plot_ajdclose.png)
+
+![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/plot_volume.png)
+
+![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/linear_regression_result.png)
 
 When we evaluated the model result,  we realized that it’s not appropriate to use a simple linear regression module to predict stock price like this. Because the linear regression module is effective for time series data, such as identifying trends like seasonality or weather prediction, somehow the variable needs to be related to itself. But when we look at the variables in the stock dataframe, each variable is not that much related, even though it looks like a time series data. The “date” value is not suitable for our independent variable. Because there are many factors that influence the stock price, such as public policy, news, international affairs, etc.,. 
 
@@ -80,7 +84,11 @@ There are some methods to enhance the linear regression model to predict price, 
 
 We plot our data to get an idea of how the EMA value tracks with the adjusted closing price, it is quite overlapped and effective.
 
+![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/EMA_values.png)
+
 Then we trained the model and got the results. Mean absolute error (MAE) is a measure of errors between paired observations, the lower the value the better, the coefficient of the correlation value is closer to 1.0 the better. So our results look good.
+
+![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/EMA_result.png)
 
 # Long Short Term Memory Network(LSTM)
 
@@ -90,15 +98,10 @@ Fit function to train the LSTM model created above on the training data for 100 
 
 We plot to compare both Adj Close’s true values and Adj Close’s predicted value using the LSTM Machine Learning model. 
 
-# Facebook Prophet model
-
 ![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/LSTM.png)
 
-![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/linear_regression.png)
 
-![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/linear_regression2.png)
-
-# Facebook Prophet Model
+# Facebook Prophet model
 
 ![image_name](https://github.com/pady7/StockPredictor_FinalProject/blob/main/Final_project_png/facebook_prophet.png)
 
